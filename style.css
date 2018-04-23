@@ -1,0 +1,57 @@
+
+/* Add variables for colors used in stylesheet */
+:root {
+    --logo-color: #02b3e4;
+    --accent-color: #2d3c49;
+    --highlight-color: #7d97ad;
+
+  }
+
+
+  hr {
+      height: 5px;
+      color: var(--accent-color);
+      background-color: var(--accent-color);
+      border: none;
+  }
+
+  header {
+      display: flex;
+      
+  }
+
+  .logo {
+      margin-right: auto;
+  }
+
+  .contact {
+    font-family: 'Quicksand', sans-serif;
+    margin-left: auto;
+    text-transform: uppercase;
+    text-align: end;
+    line-height: 1em;
+    font-weight: 300;
+    margin-top: 2em;
+
+  }
+
+  section {
+      display: flex;
+      width: 100%;
+  }
+
+  .hero {
+      justify-content: center;
+  }
+
+  .articles {
+      justify-content: space-between;
+  }
+
+  .featured {
+      color: var(--highlight-color);
+      font-size: 1.5em;
+      
+  }
+
+  
