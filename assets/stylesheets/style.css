@@ -93,6 +93,11 @@
       
   }
 
+  .subtitle {
+    font-size: 1.25em;
+    text-align: right;
+  }
+
   h3 {
       color: var(--accent-color);
       text-align: center;
@@ -138,6 +143,9 @@
           font-size: 1.5em;
       }
 
+      .subtitle{
+          font-size: .75em;
+      }
       .logoLg {
           display: none;
       }
@@ -149,6 +157,9 @@
           font-size: 2em;
       }
 
+      h2 {
+          font-size: 1.25em;
+      }
       .logoSm {
           display: none;
       }
