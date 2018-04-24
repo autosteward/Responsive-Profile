@@ -97,8 +97,9 @@
       color: var(--accent-color);
       text-align: center;
       font-family: 'Quicksand', sans-serif;
-      font-size: 1em;
+      font-size: 2em;
       font-weight: 600;
+      text-transform: uppercase;
   }
 
   p {
@@ -108,7 +109,7 @@
   }
   
 
-
+  /* Ensure articles wrap in smaller viewports */
   @media screen and (max-width: 875px) {
       section {
           display: flex;
@@ -120,8 +121,18 @@
         margin-right: auto;
         
       }
+
+      h3 {
+        color: var(--accent-color);
+        text-align: center;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.5em;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
   }
 
+  /* hide Large logo in smaller viewports */
   @media screen and (max-width: 450px) {
       h1 {
           font-size: 1.5em;
@@ -132,6 +143,7 @@
       }
   }
 
+  /* change logo and hero image sizes */
   @media screen and (min-width: 451px) {
       h1 {
           font-size: 2em;
@@ -149,9 +161,14 @@
           display: none;
       }
 
+      h2 {
+          font-size: 2em;
+          text-align: left;
+      }
+
     
   }
-
+  /* large hero on very large viewports */
   @media screen and (min-width: 1050px) {
     .heroSm {
         display: none;
@@ -168,6 +185,7 @@
     }
   }
 
+  /* display medium hero image on medium viewports */
   @media screen and (min-width: 660px) and (max-width: 1049px) {
     .heroSm {
         display: none;
