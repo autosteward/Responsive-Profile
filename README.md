@@ -1,4 +1,4 @@
-#Features
+# Features
 
 - Multiple breakpoints including minor and major
 - Images and text scale with viewport size
